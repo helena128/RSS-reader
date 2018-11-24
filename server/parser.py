@@ -1,23 +1,15 @@
 import feedparser
-from rss_info import RssInfo 
 
-def parse_source(soure):
-	rss = feedparser.parse('http://www.reddit.com/r/python/.rss')
+def parse_source(src_link):
+	rss = feedparser.parse(src_link)
+	entries = rss.entries.copy()
+	del rss["entries"]
+	#print(rss)
 
-	rss_info = RssInfo(	rss['feed']['title'],
-						rss['feed']['link'],
-						rss.feed.subtitle )
-
-	#print(rss_info)
-
-	# num of entries
-	print(len(rss['entries']))
-
-	#print all entries
-	#for post in rss.entries:
-		#print(post.title + ": " + post.link)
-		#print(post.updated)	
-		#print()
+	#print("\n================================\n")
+	#print(entries)
+	return rss, entries
 
 if __name__ == '__main__':
-	parse_source("tst")
+	rss_inf, entries = parse_source('http://www.reddit.com/r/python/.rss')
+	print('RSS: ' + str(rss_inf))
