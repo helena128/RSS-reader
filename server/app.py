@@ -7,10 +7,14 @@ app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-@app.route('/topics')
+@app.route('/rss', methods = ['GET'])
 @cross_origin()
 def get_all_rss():
-	result = service.get_all_rss()
+	rss_id = request.args.get('id')
+	if not rss_id:
+		result = service.get_all_rss()
+	else:
+		result = service.get_rss_info(rss_id)
 	return Response(result, mimetype = 'application/json')
 
 @app.route('/feeds')
@@ -28,6 +32,12 @@ def get_all_feeds():
 def add_rss():
 	link = request.form('link')
 	return Response(service.get_all_rss())
+
+@app.route('/total', methods = ['GET'])
+@cross_origin()
+def get_number_of_feeds():
+	rss_id = request.args.get('id')
+	return Response(service.get_number_of_feeds(rss_id))
 
 if __name__ == '__main__':
 	app.run(port = 8000)
