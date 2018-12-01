@@ -14,7 +14,7 @@ feed_collection.create_index('updated', unique = False)
 
 def save_data(rss_src, feeds):
 	if rss_collection.count_documents({"feed.link" : rss_src["feed"]["link"]}) == 0:
-		print('Adding')
+		print(rss_src)
 		print(rss_collection.insert_one(rss_src))
 	else:
 		print('Already in db')
@@ -31,7 +31,6 @@ def save_data(rss_src, feeds):
 ''' Getting information about '''
 def get_feeds(rss_id, feed_per_page, page_number):
 	rss_link = get_rss_link_by_id(rss_id)
-	print('Get feeds with rss: ' + rss_link)
 	skip_number = int(feed_per_page) * int(page_number)
 	return feed_collection.find({"src": rss_link}).sort("updated", -1)\
 		.skip(int(feed_per_page) * int(page_number)).limit(int(feed_per_page))

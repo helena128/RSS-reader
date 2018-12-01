@@ -30,14 +30,22 @@ def get_all_feeds():
 @app.route('/rss', methods = ['POST'])
 @cross_origin()
 def add_rss():
-	link = request.form('link')
-	return Response(service.get_all_rss())
+	link = json.loads(request.data)['link']
+	print(link)
+	return Response(service.add_rss_channel(link))
 
 @app.route('/total', methods = ['GET'])
 @cross_origin()
 def get_number_of_feeds():
 	rss_id = request.args.get('id')
 	return Response(service.get_number_of_feeds(rss_id))
+
+@app.route('/update')
+@cross_origin()
+def update_rss_channel():
+	rss_id = request.args.get('id')
+	page_size = request.args.get('size')
+	return Response(service.update_rss_channel(rss_id, page_size))
 
 if __name__ == '__main__':
 	app.run(port = 8000)
