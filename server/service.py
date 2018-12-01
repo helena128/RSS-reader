@@ -24,8 +24,9 @@ def get_number_of_feeds(rss_id):
 
 def update_rss_channel(rss_id, page_size):
 	rss_link = repository.get_rss_link_by_id(rss_id)
-	#print('Link: ' + rss_link)
-	save_rss(rss_link)
+	rss_inf, entries = parser.parse_source(rss_link)
+	print('Link: ' + rss_link)
+	repository.update_rss_feeds(rss_link, entries)
 	return get_feeds(rss_id, page_size, 0)
 
 if __name__ == '__main__':

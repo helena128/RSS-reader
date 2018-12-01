@@ -14,7 +14,7 @@ feed_collection.create_index('updated', unique = False)
 
 def save_data(rss_src, feeds):
 	if rss_collection.count_documents({"feed.link" : rss_src["feed"]["link"]}) == 0:
-		print(rss_src)
+		print(rss_src["feed"])
 		print(rss_collection.insert_one(rss_src))
 	else:
 		print('Already in db')
@@ -49,6 +49,16 @@ def get_all_rss():
 
 def get_rss_link_by_id(rss_id):
 	return rss_collection.find_one({"_id": ObjectId(rss_id)})["feed"]["link"]
+
+def update_rss_feeds(rss_link, feeds):
+	for feed in feeds:
+		#print(feed.link)
+		if feed_collection.count_documents({"link": feed["link"]}) == 0:
+			print('Saving')
+			feed["src"] = rss_link
+			feed_collection.insert(feed)
+		else:
+			print('Already exists')
 
 #if __name__ == '__main__':
 	#save()
