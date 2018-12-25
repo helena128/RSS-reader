@@ -1,0 +1,22 @@
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+
+  div {
+    padding-left: 5vh;
+    padding-right: 3vh;
+  }
+
+  .title {
+    font-size: xx-large;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+  }
+
+  .rss-channel {
+    margin-top: 2vh;
+    min-height: 40px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+}

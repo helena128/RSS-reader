@@ -1,0 +1,33 @@
+<div class="feeds-container">
+  <div class="feeds-title">
+    <!--<div>{{rssInfo.feed.title}}</div>
+    <div>{{rssInfo.feed.subtitle}}</div>-->
+    <div>Some rss info</div>
+  </div>
+  <div class="list-header">
+    <div class="paginator-container">
+      <div>Number of items:</div>
+      <div class="page-selector">
+        <select>
+          <option *ngFor="let size of pageSizes" (click)="changePageSize(size)">{{size}}</option>
+        </select>
+      </div>
+    </div>
+    <div class="update-container">
+      <button (click)="onUpdate();">Update</button>
+    </div>
+  </div>
+  <div class="feed-item" *ngFor="let feed of feeds">
+    {{feed.title}}
+  </div>
+  <div class="feed-footer">
+    <div>
+      <button (click)="selectPreviousPage()"
+        [class]="pageNumber == 0 ? 'disabled' : 'move-btn'">Previous</button>
+    </div>
+    <div>
+      <button (click)="selectNextPage()"
+        [class]="pageNumber == Math.ceil(total / pageSize) ? 'disabled' : 'move-btn'">Next</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,682 @@
+ * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+127.0.0.1 - - [01/Dec/2018 18:06:27] "GET /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:06:29] "GET /rss?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:06:29] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:06:29] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:06:29] "GET /feeds?source=5c028fdc66ac797e5999d821&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:06:35] "GET /update?id=5c028fdc66ac797e5999d821&size=10 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:06:36] "GET /update?id=5c028fdc66ac797e5999d821&size=10 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:06:44] "GET /feeds?source=5c028fdc66ac797e5999d821&size=10&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:06:44] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:06:48] "GET /feeds?source=5c028fdc66ac797e5999d821&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:06:48] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:06:53] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:06:53] "GET /feeds?source=5c028fdc66ac797e5999d821&size=20&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:07:26] "GET /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:07:27] "GET /rss?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:07:27] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:07:27] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:07:27] "GET /feeds?source=5c028fdc66ac797e5999d821&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:07:32] "GET /rss?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:07:32] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:09:33] "GET /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:09:34] "GET /rss?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:09:34] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:09:34] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:09:34] "GET /feeds?source=5c02930d66ac797e5999d836&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:00] "GET /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:00] "GET /rss?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:00] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:00] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:00] "GET /feeds?source=5c02930d66ac797e5999d836&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:23] "GET /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:23] "GET /rss?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:23] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:23] "GET /feeds?source=5c02930d66ac797e5999d836&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:23] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:52] "GET /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:52] "GET /rss?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:52] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:52] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:52] "GET /feeds?source=5c02930d66ac797e5999d836&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:56] "GET /rss?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:56] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:59] "GET /rss?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:10:59] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:11:00] "GET /rss?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:11:00] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:11:05] "GET /rss?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:11:05] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:11:07] "GET /rss?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:11:07] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:14:35] "GET /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:14:35] "GET /rss?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:14:35] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:14:35] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:14:35] "GET /feeds?source=5bfaa5b266ac793f1c1da765&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:15:18] "GET /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:15:18] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:15:18] "GET /rss?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:15:19] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:15:19] "GET /feeds?source=5bfaa5b266ac793f1c1da765&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:09] "GET /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:09] "GET /rss?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:09] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:09] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:09] "GET /feeds?source=5bfaa5b266ac793f1c1da765&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:17] "GET /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:17] "GET /rss?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:17] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:17] "GET /feeds?source=5bfaa5b266ac793f1c1da765&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:17] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:23] "GET /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:23] "GET /rss?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:23] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:23] "GET /feeds?source=5bfaa5b266ac793f1c1da765&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:23] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:30] "GET /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:30] "GET /rss?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:30] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:30] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:30] "GET /feeds?source=5bfaa5b266ac793f1c1da765&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:46] "GET /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:46] "GET /rss?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:46] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:46] "GET /feeds?source=5bfaa5b266ac793f1c1da765&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:16:46] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:17:01] "GET /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:17:01] "GET /rss?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:17:01] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:17:01] "GET /feeds?source=5bfaa5b266ac793f1c1da765&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:17:01] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+[2018-12-01 18:17:04,362] ERROR in app: Exception on /rss [GET]
+Traceback (most recent call last):
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 17, in get_all_rss
+    result = service.get_rss_info(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/service.py", line 20, in get_rss_info
+    return repository.get_rss_info(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 44, in get_rss_info
+    return rss_collection.find_one({"_id": ObjectId(rss_id)})
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 125, in __init__
+    self.__validate(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 221, in __validate
+    _raise_invalid_id(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 67, in _raise_invalid_id
+    " or a 24-character hex string" % oid)
+bson.errors.InvalidId: ', rss._id.$oid' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string
+127.0.0.1 - - [01/Dec/2018 18:17:04] "GET /rss?id=,%20rss._id.$oid HTTP/1.1" 500 -
+[2018-12-01 18:17:04,382] ERROR in app: Exception on /total [GET]
+Traceback (most recent call last):
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 41, in get_number_of_feeds
+    return Response(service.get_number_of_feeds(rss_id))
+  File "/home/helen/Documents/itmo7/python/lab6/server/service.py", line 23, in get_number_of_feeds
+    return repository.get_number_of_feeds(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 39, in get_number_of_feeds
+    rss_link = get_rss_link_by_id(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 51, in get_rss_link_by_id
+    return rss_collection.find_one({"_id": ObjectId(rss_id)})["feed"]["link"]
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 125, in __init__
+    self.__validate(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 221, in __validate
+    _raise_invalid_id(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 67, in _raise_invalid_id
+    " or a 24-character hex string" % oid)
+bson.errors.InvalidId: ', rss._id.$oid' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string
+127.0.0.1 - - [01/Dec/2018 18:17:04] "GET /total?id=,%20rss._id.$oid HTTP/1.1" 500 -
+127.0.0.1 - - [01/Dec/2018 18:17:37] "GET /rss HTTP/1.1" 200 -
+[2018-12-01 18:17:37,708] ERROR in app: Exception on /rss [GET]
+Traceback (most recent call last):
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 17, in get_all_rss
+    result = service.get_rss_info(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/service.py", line 20, in get_rss_info
+    return repository.get_rss_info(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 44, in get_rss_info
+    return rss_collection.find_one({"_id": ObjectId(rss_id)})
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 125, in __init__
+    self.__validate(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 221, in __validate
+    _raise_invalid_id(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 67, in _raise_invalid_id
+    " or a 24-character hex string" % oid)
+bson.errors.InvalidId: ', rss._id.$oid' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string
+127.0.0.1 - - [01/Dec/2018 18:17:37] "GET /rss?id=,%20rss._id.$oid HTTP/1.1" 500 -
+[2018-12-01 18:17:37,710] ERROR in app: Exception on /total [GET]
+Traceback (most recent call last):
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 41, in get_number_of_feeds
+    return Response(service.get_number_of_feeds(rss_id))
+  File "/home/helen/Documents/itmo7/python/lab6/server/service.py", line 23, in get_number_of_feeds
+    return repository.get_number_of_feeds(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 39, in get_number_of_feeds
+    rss_link = get_rss_link_by_id(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 51, in get_rss_link_by_id
+    return rss_collection.find_one({"_id": ObjectId(rss_id)})["feed"]["link"]
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 125, in __init__
+    self.__validate(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 221, in __validate
+    _raise_invalid_id(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 67, in _raise_invalid_id
+    " or a 24-character hex string" % oid)
+bson.errors.InvalidId: ', rss._id.$oid' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string
+127.0.0.1 - - [01/Dec/2018 18:17:37] "GET /total?id=,%20rss._id.$oid HTTP/1.1" 500 -
+[2018-12-01 18:17:37,720] ERROR in app: Exception on /feeds [GET]
+Traceback (most recent call last):
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 27, in get_all_feeds
+    result = service.get_feeds(source, size, page)
+  File "/home/helen/Documents/itmo7/python/lab6/server/service.py", line 14, in get_feeds
+    return json_util.dumps(list(repository.get_feeds(rss_id, feed_per_page, page_number)))
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 33, in get_feeds
+    rss_link = get_rss_link_by_id(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 51, in get_rss_link_by_id
+    return rss_collection.find_one({"_id": ObjectId(rss_id)})["feed"]["link"]
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 125, in __init__
+    self.__validate(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 221, in __validate
+    _raise_invalid_id(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 67, in _raise_invalid_id
+    " or a 24-character hex string" % oid)
+bson.errors.InvalidId: ', rss._id.$oid' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string
+127.0.0.1 - - [01/Dec/2018 18:17:37] "GET /feeds?source=,%20rss._id.$oid&size=10&page=0 HTTP/1.1" 500 -
+[2018-12-01 18:17:37,724] ERROR in app: Exception on /total [GET]
+Traceback (most recent call last):
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 41, in get_number_of_feeds
+    return Response(service.get_number_of_feeds(rss_id))
+  File "/home/helen/Documents/itmo7/python/lab6/server/service.py", line 23, in get_number_of_feeds
+    return repository.get_number_of_feeds(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 39, in get_number_of_feeds
+    rss_link = get_rss_link_by_id(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 51, in get_rss_link_by_id
+    return rss_collection.find_one({"_id": ObjectId(rss_id)})["feed"]["link"]
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 125, in __init__
+    self.__validate(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 221, in __validate
+    _raise_invalid_id(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 67, in _raise_invalid_id
+    " or a 24-character hex string" % oid)
+bson.errors.InvalidId: ', rss._id.$oid' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string
+127.0.0.1 - - [01/Dec/2018 18:17:37] "GET /total?id=,%20rss._id.$oid HTTP/1.1" 500 -
+127.0.0.1 - - [01/Dec/2018 18:18:51] "GET /rss HTTP/1.1" 200 -
+[2018-12-01 18:18:51,199] ERROR in app: Exception on /rss [GET]
+Traceback (most recent call last):
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 17, in get_all_rss
+    result = service.get_rss_info(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/service.py", line 20, in get_rss_info
+    return repository.get_rss_info(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 44, in get_rss_info
+    return rss_collection.find_one({"_id": ObjectId(rss_id)})
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 125, in __init__
+    self.__validate(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 221, in __validate
+    _raise_invalid_id(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 67, in _raise_invalid_id
+    " or a 24-character hex string" % oid)
+bson.errors.InvalidId: ', rss._id.$oid' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string
+127.0.0.1 - - [01/Dec/2018 18:18:51] "GET /rss?id=,%20rss._id.$oid HTTP/1.1" 500 -
+[2018-12-01 18:18:51,201] ERROR in app: Exception on /total [GET]
+Traceback (most recent call last):
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 41, in get_number_of_feeds
+    return Response(service.get_number_of_feeds(rss_id))
+  File "/home/helen/Documents/itmo7/python/lab6/server/service.py", line 23, in get_number_of_feeds
+    return repository.get_number_of_feeds(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 39, in get_number_of_feeds
+    rss_link = get_rss_link_by_id(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 51, in get_rss_link_by_id
+    return rss_collection.find_one({"_id": ObjectId(rss_id)})["feed"]["link"]
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 125, in __init__
+    self.__validate(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 221, in __validate
+    _raise_invalid_id(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 67, in _raise_invalid_id
+    " or a 24-character hex string" % oid)
+bson.errors.InvalidId: ', rss._id.$oid' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string
+127.0.0.1 - - [01/Dec/2018 18:18:51] "GET /total?id=,%20rss._id.$oid HTTP/1.1" 500 -
+[2018-12-01 18:18:51,202] ERROR in app: Exception on /feeds [GET]
+Traceback (most recent call last):
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 27, in get_all_feeds
+    result = service.get_feeds(source, size, page)
+  File "/home/helen/Documents/itmo7/python/lab6/server/service.py", line 14, in get_feeds
+    return json_util.dumps(list(repository.get_feeds(rss_id, feed_per_page, page_number)))
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 33, in get_feeds
+    rss_link = get_rss_link_by_id(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 51, in get_rss_link_by_id
+    return rss_collection.find_one({"_id": ObjectId(rss_id)})["feed"]["link"]
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 125, in __init__
+    self.__validate(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 221, in __validate
+    _raise_invalid_id(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 67, in _raise_invalid_id
+    " or a 24-character hex string" % oid)
+bson.errors.InvalidId: ', rss._id.$oid' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string
+127.0.0.1 - - [01/Dec/2018 18:18:51] "GET /feeds?source=,%20rss._id.$oid&size=10&page=0 HTTP/1.1" 500 -
+[2018-12-01 18:18:51,204] ERROR in app: Exception on /total [GET]
+Traceback (most recent call last):
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 41, in get_number_of_feeds
+    return Response(service.get_number_of_feeds(rss_id))
+  File "/home/helen/Documents/itmo7/python/lab6/server/service.py", line 23, in get_number_of_feeds
+    return repository.get_number_of_feeds(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 39, in get_number_of_feeds
+    rss_link = get_rss_link_by_id(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 51, in get_rss_link_by_id
+    return rss_collection.find_one({"_id": ObjectId(rss_id)})["feed"]["link"]
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 125, in __init__
+    self.__validate(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 221, in __validate
+    _raise_invalid_id(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 67, in _raise_invalid_id
+    " or a 24-character hex string" % oid)
+bson.errors.InvalidId: ', rss._id.$oid' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string
+127.0.0.1 - - [01/Dec/2018 18:18:51] "GET /total?id=,%20rss._id.$oid HTTP/1.1" 500 -
+127.0.0.1 - - [01/Dec/2018 18:19:04] "GET /rss HTTP/1.1" 200 -
+[2018-12-01 18:19:04,668] ERROR in app: Exception on /rss [GET]
+Traceback (most recent call last):
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 17, in get_all_rss
+    result = service.get_rss_info(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/service.py", line 20, in get_rss_info
+    return repository.get_rss_info(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 44, in get_rss_info
+    return rss_collection.find_one({"_id": ObjectId(rss_id)})
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 125, in __init__
+    self.__validate(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 221, in __validate
+    _raise_invalid_id(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 67, in _raise_invalid_id
+    " or a 24-character hex string" % oid)
+bson.errors.InvalidId: ', rss._id.$oid' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string
+127.0.0.1 - - [01/Dec/2018 18:19:04] "GET /rss?id=,%20rss._id.$oid HTTP/1.1" 500 -
+[2018-12-01 18:19:04,670] ERROR in app: Exception on /total [GET]
+Traceback (most recent call last):
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 41, in get_number_of_feeds
+    return Response(service.get_number_of_feeds(rss_id))
+  File "/home/helen/Documents/itmo7/python/lab6/server/service.py", line 23, in get_number_of_feeds
+    return repository.get_number_of_feeds(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 39, in get_number_of_feeds
+    rss_link = get_rss_link_by_id(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 51, in get_rss_link_by_id
+    return rss_collection.find_one({"_id": ObjectId(rss_id)})["feed"]["link"]
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 125, in __init__
+    self.__validate(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 221, in __validate
+    _raise_invalid_id(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 67, in _raise_invalid_id
+    " or a 24-character hex string" % oid)
+bson.errors.InvalidId: ', rss._id.$oid' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string
+127.0.0.1 - - [01/Dec/2018 18:19:04] "GET /total?id=,%20rss._id.$oid HTTP/1.1" 500 -
+[2018-12-01 18:19:04,674] ERROR in app: Exception on /total [GET]
+Traceback (most recent call last):
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 41, in get_number_of_feeds
+    return Response(service.get_number_of_feeds(rss_id))
+  File "/home/helen/Documents/itmo7/python/lab6/server/service.py", line 23, in get_number_of_feeds
+    return repository.get_number_of_feeds(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 39, in get_number_of_feeds
+    rss_link = get_rss_link_by_id(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 51, in get_rss_link_by_id
+    return rss_collection.find_one({"_id": ObjectId(rss_id)})["feed"]["link"]
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 125, in __init__
+    self.__validate(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 221, in __validate
+    _raise_invalid_id(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 67, in _raise_invalid_id
+    " or a 24-character hex string" % oid)
+bson.errors.InvalidId: ', rss._id.$oid' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string
+127.0.0.1 - - [01/Dec/2018 18:19:04] "GET /total?id=,%20rss._id.$oid HTTP/1.1" 500 -
+[2018-12-01 18:19:04,677] ERROR in app: Exception on /feeds [GET]
+Traceback (most recent call last):
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 27, in get_all_feeds
+    result = service.get_feeds(source, size, page)
+  File "/home/helen/Documents/itmo7/python/lab6/server/service.py", line 14, in get_feeds
+    return json_util.dumps(list(repository.get_feeds(rss_id, feed_per_page, page_number)))
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 33, in get_feeds
+    rss_link = get_rss_link_by_id(rss_id)
+  File "/home/helen/Documents/itmo7/python/lab6/server/repository.py", line 51, in get_rss_link_by_id
+    return rss_collection.find_one({"_id": ObjectId(rss_id)})["feed"]["link"]
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 125, in __init__
+    self.__validate(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 221, in __validate
+    _raise_invalid_id(oid)
+  File "/home/helen/.pyenv/versions/3.6.5/lib/python3.6/site-packages/bson/objectid.py", line 67, in _raise_invalid_id
+    " or a 24-character hex string" % oid)
+bson.errors.InvalidId: ', rss._id.$oid' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string
+127.0.0.1 - - [01/Dec/2018 18:19:04] "GET /feeds?source=,%20rss._id.$oid&size=10&page=0 HTTP/1.1" 500 -
+127.0.0.1 - - [01/Dec/2018 18:19:07] "GET /rss?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:07] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:10] "GET /rss?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:10] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:11] "GET /rss?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:11] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:14] "GET /rss?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:14] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:15] "GET /rss?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:15] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:37] "GET /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:37] "GET /rss?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:37] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:37] "GET /feeds?source=5bfaa5b266ac793f1c1da765&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:37] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:39] "GET /rss?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:39] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:41] "GET /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:41] "GET /rss?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:41] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:42] "GET /feeds?source=5c028fdc66ac797e5999d821&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:19:42] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:21:56] "GET /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:21:56] "GET /rss?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:21:56] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:21:56] "GET /feeds?source=5c028fdc66ac797e5999d821&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:21:56] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:00] "GET /rss?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:00] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:00] "GET /feeds?source=5c02930d66ac797e5999d836&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:00] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:01] "GET /rss?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:01] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:01] "GET /feeds?source=5c028fdc66ac797e5999d821&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:01] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:03] "GET /rss?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:03] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:03] "GET /feeds?source=5bfaa5b266ac793f1c1da765&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:03] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:04] "GET /rss?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:04] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:04] "GET /feeds?source=5c028fdc66ac797e5999d821&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:05] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:06] "GET /rss?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:06] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:06] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:06] "GET /feeds?source=5c02930d66ac797e5999d836&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:26] "GET /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:26] "GET /rss?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:26] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:26] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:26] "GET /feeds?source=5c02930d66ac797e5999d836&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:28] "GET /rss?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:28] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:28] "GET /feeds?source=5c028fdc66ac797e5999d821&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:28] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:29] "GET /rss?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:29] "GET /feeds?source=5c02930d66ac797e5999d836&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:29] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:29] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:30] "GET /rss?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:30] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:30] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:30] "GET /feeds?source=5c028fdc66ac797e5999d821&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:31] "GET /rss?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:31] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:31] "GET /feeds?source=5bfaa5b266ac793f1c1da765&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:31] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:33] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:33] "GET /feeds?source=5bfaa5b266ac793f1c1da765&size=20&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:35] "GET /rss?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:35] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:35] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:35] "GET /feeds?source=5c028fdc66ac797e5999d821&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:40] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:40] "GET /feeds?source=5c028fdc66ac797e5999d821&size=20&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:41] "GET /rss?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:41] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:41] "GET /feeds?source=5c02930d66ac797e5999d836&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:41] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:44] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:44] "GET /feeds?source=5c02930d66ac797e5999d836&size=20&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:54] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:54] "GET /feeds?source=5c02930d66ac797e5999d836&size=20&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:56] "GET /feeds?source=5c02930d66ac797e5999d836&size=20&page=2 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:22:56] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:23:01] "GET /feeds?source=5c02930d66ac797e5999d836&size=20&page=1 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:23:01] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:23:45] "GET /rss?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:23:45] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:23:45] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:23:45] "GET /feeds?source=5c028fdc66ac797e5999d821&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:23:48] "GET /update?id=5c028fdc66ac797e5999d821&size=10 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:30] "OPTIONS /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:31] "POST /rss HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:32] "GET /rss?id=5c02a7af66ac790ba338f693 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:32] "GET /total?id=5c02a7af66ac790ba338f693 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:32] "GET /feeds?source=5c02a7af66ac790ba338f693&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:32] "GET /total?id=5c02a7af66ac790ba338f693 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:41] "GET /rss?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:41] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:41] "GET /total?id=5bfaa5b266ac793f1c1da765 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:41] "GET /feeds?source=5bfaa5b266ac793f1c1da765&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:42] "GET /rss?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:42] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:42] "GET /total?id=5c028fdc66ac797e5999d821 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:42] "GET /feeds?source=5c028fdc66ac797e5999d821&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:44] "GET /rss?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:44] "GET /feeds?source=5c02930d66ac797e5999d836&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:44] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:44] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:46] "GET /rss?id=5c02a7af66ac790ba338f693 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:46] "GET /total?id=5c02a7af66ac790ba338f693 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:46] "GET /feeds?source=5c02a7af66ac790ba338f693&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:46] "GET /total?id=5c02a7af66ac790ba338f693 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:48] "GET /rss?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:48] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:48] "GET /feeds?source=5c02930d66ac797e5999d836&size=10&page=0 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:48] "GET /total?id=5c02930d66ac797e5999d836 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Dec/2018 18:24:51] "GET /update?id=5c02930d66ac797e5999d836&size=10 HTTP/1.1" 200 -

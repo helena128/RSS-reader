@@ -1,0 +1,15 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+
+  .side-bar {
+    /*border: coral 1px solid;*/
+    min-width: 20%;
+  }
+
+  .main-body {
+    flex-grow: 1;
+    /*border: aqua 1px solid;*/
+  }
+}
